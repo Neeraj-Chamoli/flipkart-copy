@@ -262,7 +262,7 @@ app.get('/products/:category/:brand?',function(req,res){
     res.send(array);
 });
 
-app.get('/',function(req,res){
+app.get('/deals',function(req,res){
     let array=randomArray(mobiles);
     res.send(array)
 })
